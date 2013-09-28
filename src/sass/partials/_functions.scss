@@ -1,0 +1,76 @@
+// ****************************************************************************
+// Placeholder selectors
+// ****************************************************************************
+
+%clearfix {
+	@include clearfix;
+}
+
+%outer-container {
+	@include outer-container;
+}
+
+%inline-block {
+	@include inline-block;
+}
+
+%flex-gutter {
+	margin-bottom: flex-gutter() !important;
+
+	@include media($mobile) {
+		margin-bottom: flex-gutter(6) !important;
+	}
+}
+
+%hyphens {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+
+	@include media($mobile) {
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto;
+		hyphens: auto;
+	}
+}
+
+/// Animation helpers
+@include keyframes(fadeIn) {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+%fadeIn {
+	@include animation(fadeIn 0.5s $ease-in-out-quad);
+	display: block;
+}
+
+@include keyframes(fadeOut) {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+%fadeOut {
+	@include animation(fadeOut 0.5s $ease-in-out-quad);
+	display: none;
+}
+
+
+// ****************************************************************************
+// Mixins
+// ****************************************************************************
+
+@mixin ellipsis($use: true) {
+	@if($use) {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		-o-text-overflow: ellipsis;
+	}
+	@else {
+		white-space: normal;
+		overflow: visible;
+		text-overflow: visible;
+		-o-text-overflow: visible;
+	}
+}

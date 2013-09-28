@@ -1,0 +1,24 @@
+div.container {
+	@extend %outer-container;
+
+	.parent-element {
+		@include span-columns(8);
+		@include media($mobile) {
+			@include span-columns(6);
+		}
+
+		.child-element1 {
+			@include span-columns(6 of 8);
+			@include media($mobile) {
+				@include span-columns(3);
+			}
+		}
+
+		.child-element2 {
+			@include span-columns(2 of 8);
+			@include media($mobile) {
+				@include span-columns(3);
+			}
+		}
+	}
+}

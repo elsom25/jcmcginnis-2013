@@ -1,0 +1,31 @@
+//
+// Homepage Banner
+//
+
+// STANDARD STYLING
+header {
+  h2 { text-shadow:0 1px 2px black; color:white; margin-bottom:10px; text-align: center; text-weight:300; font-variant:small-caps; }
+
+  .a1 { @include animation(fadeIn 1.5s 0.50s both); }
+  .a2 { @include animation(fadeIn 1.5s 0.75s both); }
+  .a3 { @include animation(fadeIn 1.5s 1.00s both); }
+}
+
+// RESPONSIVE STYLING
+header {
+  $bp-1: 557px;
+  $bp-2: 730px;
+  $bp-3: 1000px;
+
+  margin-top:30px;
+  // @include min-screen($bp-1) { margin-top:70px; }
+  // @include min-screen($bp-2) { margin-top:100px; }
+  // @include min-screen($bp-3) { }
+
+  h2 {
+    font-size:emCalc(54px);
+    // @include min-screen($bp-1) { }
+    // @include min-screen($bp-2) { font-size:emCalc(58px); }
+    // @include min-screen($bp-3) { font-size:emCalc(65px); }
+  }
+}

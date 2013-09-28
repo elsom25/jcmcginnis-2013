@@ -1,0 +1,147 @@
+@import "neat/neat-helpers";
+
+/*************
+ General
+*************/
+
+/* $border-box-sizing
+	type: bool
+	default: true
+
+	When set to true, it sets the box-sizing property of all elements to border-box.
+*/
+// $border-box-sizing: false;
+
+/* $default-feature
+	type: string
+	default: min-width
+
+	Sets the default media feature that media() and new-breakpoint() revert to when only a breakpoint value is passed.
+*/
+$default-feature: max-width;
+
+/* $default-layout-direction
+	type: string
+	default: LTR
+
+	Sets the default layout direction of the grid.
+	LTR for a left-to-right layout
+	RTL for a right-to-left layout
+*/
+// $default-layout-direction: LTR;
+
+
+/*************
+ Measurements
+*************/
+
+/* $column
+	type: number (positive, unit)
+	default: golden-ratio(1em, 3)
+
+	Sets the relative width of a single grid column.
+	The unit type should the same one used to define $gutter.
+*/
+// $column: golden-ratio(1em, 3);
+
+/* $gutter
+	type: number (positive, unit)
+	default: golden-ratio(1em, 1)
+
+	Sets the relative width of a single grid gutter.
+	The unit type should the same one used to define $column.
+*/
+// $gutter: golden-ratio(1em, 1);
+
+/* $grid-columns
+	type: number (positive, unitless)
+	default: 12
+
+	Sets the total number of columns in the grid. Its value can be overidden inside a media query using the media() mixin.
+*/
+// $grid-columns: 16;
+
+/* $max-width
+	type: number (positive, unit)
+	default: em(1088)
+
+	Sets the max-width property of the element that includes outer-container().
+*/
+$max-width: em(1170);
+
+
+/*************
+ Visual grid
+*************/
+
+/* $visual-grid
+	type: bool
+	default: false
+
+	Displays the visual grid when set to true.
+*/
+$visual-grid: true;
+
+/* $visual-grid-color
+	type: color
+	default: #eee
+
+	Sets the visual grid color.
+*/
+$visual-grid-color: #E6F6FF;
+
+/* $visual-grid-index
+	type: string
+	default: back
+
+	Sets the z-index property of the visual grid.
+	back: visual grid appears under the content.
+	front: visual grid appears over the content.
+*/
+// $visual-grid-index: front;
+
+/* $visual-grid-opacity
+	type: number (0.0-1.0)
+	default: 0.4
+
+	Sets the opacity property of the visual grid.
+*/
+// $visual-grid-opacity: 0.8;
+
+
+/*************
+ Breakpoints
+*************/
+
+/* new-breakpoint
+	new-breakpoint($first-feature $first-value $second-feature $second-value $total-columns)
+
+	Returns a media context (media query / grid context) that can be stored in a variable and passed to media() as a single-keyword argument. Media contexts defined using new-breakpoint are used by the visual grid, as long as they are defined before importing Neat.
+
+	@param $first-feature
+		type: string
+		default: $default-feature
+	Media feature to use in the first query.
+
+	@param $first-value (required)
+		type: number (positive, unit)
+	Breakpoint value to use on the first query.
+
+	@param $second-feature
+		type: string
+	Media feature to use in the second query.
+
+	@param $second-value
+		type: number (positive, unit)
+	Breakpoint value to use on the second query.
+
+	@param $total-columns
+		type: number (positive, unitless)
+		default: $grid-columns
+	Number of columns to use in the new grid context.
+
+	Shorthand syntax
+		media($first-feature $first-value [$second-feature, $second-value] [$total-columns])
+*/
+$smaller: new-breakpoint($default-feature 1023px);
+$mobile: new-breakpoint($default-feature 767px 6);

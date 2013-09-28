@@ -1,0 +1,66 @@
+doctype html
+/[if lt IE 7]
+  | <html class='no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7'>
+/[if IE 7]
+  | <html class='no-js lt-ie10 lt-ie9 lt-ie8 ie7'>
+/[if IE 8]
+  | <html class='no-js lt-ie10 lt-ie9 ie8'>
+/[if IE 9]
+  | <html class='no-js lt-ie10 ie9'>
+| <!--[if (gt IE 9)|!(IE)]<!-->
+html.no-js
+  | <!--<![endif]-->
+
+  head
+    meta charset='utf-8'
+    meta http-equiv='X-UA-Compatible' content='IE=edge'
+    meta name='viewport' content='width=device-width, initial-scale=1'
+    meta name='description' content='The personal portfolio of Jesse McGinnis- showcasing my best, most recent, coding projects and website designs.'
+
+    title Jesse McGinnis
+
+    /[if lte IE 6]
+      link rel="stylesheet" href="http://universal-ie6-css.googlecode.com/files/ie6.1.1b.css" media="screen, projection"
+    | <!--[if ! lte IE 6]><!-->
+    link rel='stylesheet' href='css/style.css'
+    | <!--<![endif]-->
+
+    /[if lt IE 9]
+      script src='//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js'
+      script src='//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js'
+      | <script type="text/javascript">window.respond || document.write('<script src="js/vendor/respond.min.js"><\/script>')
+
+    script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'
+    | <script type="text/javascript">window.Modernizr || document.write('<script src="js/vendor/modernizr-2.6.2.min.js"><\/script>')</script>
+
+  body
+    /[if lt IE 8]
+      p.browsehappy You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/' target='_blank' rel='external'>upgrade your browser</a> to improve your experience.
+
+    header
+      h1 Jesse McGinnis
+      h2
+        span.a1' Developer.
+        span.a2' Leader.
+        span.a3' Student.
+
+    .main.container role='main'
+      /! Begin main content
+
+    script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'
+    javascript:
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+
+    script src='//squaresend.com/squaresend.js'
+
+    script src='js/plugins.js'
+    script src='js/main.js'
+
+    / Google Analytics: change UA-XXXXX-X to correct ID.
+    javascript:
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');

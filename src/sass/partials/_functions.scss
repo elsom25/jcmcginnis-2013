@@ -17,10 +17,12 @@
 }
 
 // fun!
-@mixin fun($color) {
+@mixin fun($color, $dark-color:darken($color, 25%)) {
             .color { background:$color; }
        ::selection { background:$color; }
   ::-moz-selection { background:$color; }
+
+  a { @include fancy-link($dark-color, transparentize($color, 0.5)); }
 }
 
 // Font Sizing

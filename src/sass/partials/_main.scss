@@ -1,14 +1,29 @@
-.main, header { margin-left:em(40); }
-header { margin-top:10%;
-  h1 { font-size:mr(0); font-weight:700; margin:0; }
-  h2 { font-size:mr(1); margin:0; font-weight:300; }
+$accent-color: #fa0000;
 
-  .a1 { @include animation(fadeIn 1.5s 0.50s both); @include fancy-link(red); }
-  .a2 { @include animation(fadeIn 1.5s 1.00s both); @include fancy-link(blue); }
-  .a3 { @include animation(fadeIn 1.5s 1.50s both); @include fancy-link(green); }
+::selection { background:$accent-color; color:white; }
+::-moz-selection { background:$accent-color; color:white; }
+
+html { @include linear-gradient(to right, white 45%, #ddd 100%); color:#444; }
+body { margin-left:em(80); margin-right:em(40); }
+body { max-width:em(625); }
+h1, h2, p { margin:0; }
+h1 { font-size:mr(0); font-weight:700; color:black; }
+h2 { font-size:mr(1); font-weight:300; }
+p  { font-size:mr(3); line-height:1.6; margin-bottom:1em; padding:0.25em; }
+a { @include fancy-link(black, transparentize(black, 0.75)); color:black; border-bottom:1px solid transparentize(black, 0.5); text-decoration:none; }
+
+a.artbarn { @include fancy-link(#ef4036); }
+a.demeure { @include fancy-link(#e6075c); }
+
+header { margin-top:10%;
+  .a1 { @include fade-in(0.50s); }
+  .a2 { @include fade-in(1.00s); }
+  .a3 { @include fade-in(1.50s); }
 }
+
+.color { background:$accent-color; position:fixed; top:0; left:0; bottom:0; width:em(40); }
+
 .main {
-  a { color:black; text-decoration:none; border-bottom:1px solid transparentize(black, 0.5); }
   ul { list-style-type:none;
     &, & li { margin:0; padding:0; display:inline; }
   }

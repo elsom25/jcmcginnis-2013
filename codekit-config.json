@@ -14,18 +14,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/src\/sass\/partials\/_functions.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_functions.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_functions.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
     "\/src\/sass\/vendor\/_h5bp.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -35,6 +23,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/build\/css\/_h5bp.css",
+      "fileType" : 4,
+      "debugStyle" : 2
+    },
+    "\/src\/sass\/partials\/_functions.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_functions.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/_functions.css",
       "fileType" : 4,
       "debugStyle" : 2
     },

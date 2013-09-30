@@ -7,13 +7,12 @@
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
-@mixin fade-in($delay, $length:1.5s) {
+@mixin fade-in($delay, $length:1s) {
   @include animation(fadeIn $length $delay both);
 }
 
 // Links!
 @mixin fancy-link($accent-color, $background-color:transparentize($accent-color, 0.5)) {
-  padding:0.05em 0.15em 0;
   &:hover { background:$background-color; border-bottom:3px solid $accent-color; }
 }
 

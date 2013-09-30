@@ -1,7 +1,2 @@
 .DS_Store
 .sass-cache
-build/css/style.css
-build/js/main.js
-build/js/plugins.js
-build/*.html
-!build/404.html

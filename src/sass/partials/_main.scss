@@ -1,34 +1,45 @@
 $accent-color: #fa0000;
+$font-color: #444;
 
 ::selection { background:$accent-color; color:white; }
 ::-moz-selection { background:$accent-color; color:white; }
 
-html { @include linear-gradient(to right, white 45%, #ddd 100%); color:#444; }
-body { margin-left:em(80); margin-right:em(40); }
-body { max-width:em(625); }
+body { color:$font-color; margin-left:em(80); margin-right:em(40); max-width:em(625); }
 h1, h2, p { margin:0; }
-h1 { font-size:mr(0); font-weight:700; color:black; }
+h1 { font-weight:700; color:black;
+  font-size: mr(0) - 0.75;
+  @include media(em(575)) { font-size:mr(0); }
+}
 h2 { font-size:mr(1); font-weight:300; }
 p  { font-size:mr(3); line-height:1.6; margin-bottom:1em; padding:0.25em; }
 a {
-  @include fancy-link(black, transparentize(black, 0.75));
-  border-bottom:1px solid transparentize(black, 0.5); color:black; padding:0.05em 0.15em 0; text-decoration:none;
+  @include fancy-link($font-color, transparentize($font-color, 0.75));
+  border-bottom:1px solid transparentize($font-color, 0.75); color:$font-color; padding:0.05em 0.15em 0; text-decoration:none;
 
   &.artbarn { @include fancy-link(#ef4036); }
   &.demeure { @include fancy-link(#e6075c); }
+  &.github { @include fancy-link(#5BA525); }
+  &.bitbucket { @include fancy-link(#8C489F); }
+
+  &.feds { @include fancy-link(#FCD450); }
+  &.uwaterloo { }
+
+  &.facebook { @include fancy-link(#3B5998); }
+  &.twitter { @include fancy-link(#00A0D1); }
+  &.linkedin { @include fancy-link(#50A1CB); }
 }
 
-
-header { margin-top:10%;
-  .a1 { @include fade-in(0.50s); }
-  .a2 { @include fade-in(1.00s); }
-  .a3 { @include fade-in(1.50s); }
-}
-
+header { margin-top:10%; }
 .color { background:$accent-color; position:fixed; top:0; left:0; bottom:0; width:em(40); }
-
 .main {
   ul { list-style-type:none;
     &, & li { margin:0; padding:0; display:inline; }
   }
 }
+
+// animations
+.a1       { @include fade-in(0.50s); }
+.a2       { @include fade-in(0.75s); }
+.a3       { @include fade-in(1.00s); }
+h1, .main { @include fade-in(0.00s, 2s); }
+.color    { @include fade-in(0.00s, 3s); }

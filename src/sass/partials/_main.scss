@@ -10,10 +10,14 @@ h1, h2, p { margin:0; }
 h1 { font-size:mr(0); font-weight:700; color:black; }
 h2 { font-size:mr(1); font-weight:300; }
 p  { font-size:mr(3); line-height:1.6; margin-bottom:1em; padding:0.25em; }
-a { @include fancy-link(black, transparentize(black, 0.75)); color:black; border-bottom:1px solid transparentize(black, 0.5); text-decoration:none; }
+a {
+  @include fancy-link(black, transparentize(black, 0.75));
+  border-bottom:1px solid transparentize(black, 0.5); color:black; padding:0.05em 0.15em 0; text-decoration:none;
 
-a.artbarn { @include fancy-link(#ef4036); }
-a.demeure { @include fancy-link(#e6075c); }
+  &.artbarn { @include fancy-link(#ef4036); }
+  &.demeure { @include fancy-link(#e6075c); }
+}
+
 
 header { margin-top:10%;
   .a1 { @include fade-in(0.50s); }

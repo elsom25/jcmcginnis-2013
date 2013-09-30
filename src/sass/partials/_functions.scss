@@ -16,6 +16,13 @@
   &:hover { background:$background-color; border-bottom:3px solid $accent-color; }
 }
 
+// fun!
+@mixin fun($color) {
+            .color { background:$color; }
+       ::selection { background:$color; }
+  ::-moz-selection { background:$color; }
+}
+
 // Font Sizing
 @function mr($l) { @return modular-rythm($l); }
 @function modular-rythm($level) {

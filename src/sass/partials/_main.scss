@@ -1,8 +1,5 @@
-$accent-color: #fa0000;
+$base-accent: #fa0000;
 $font-color: #444;
-
-::selection { background:$accent-color; color:white; }
-::-moz-selection { background:$accent-color; color:white; }
 
 body { color:$font-color; margin-left:em(80); margin-right:em(40); max-width:em(625); }
 h1, h2, p { margin:0; }
@@ -18,28 +15,44 @@ a {
 
   &.artbarn { @include fancy-link(#ef4036); }
   &.demeure { @include fancy-link(#e6075c); }
-  &.github { @include fancy-link(#5BA525); }
-  &.bitbucket { @include fancy-link(#8C489F); }
+  &.github { @include fancy-link(#5ba525); }
+  &.bitbucket { @include fancy-link(#8c489f); }
 
-  &.feds { @include fancy-link(#FCD450); }
+  &.feds { @include fancy-link(#fcd450); }
   &.uwaterloo { }
 
-  &.facebook { @include fancy-link(#3B5998); }
-  &.twitter { @include fancy-link(#00A0D1); }
-  &.linkedin { @include fancy-link(#50A1CB); }
+  &.facebook { @include fancy-link(#3b5998); }
+  &.twitter { @include fancy-link(#00a0d1); }
+  &.linkedin { @include fancy-link(#50a1cb); }
 }
 
 header { margin-top:10%; }
-.color { background:$accent-color; position:fixed; top:0; left:0; bottom:0; width:em(40); }
-.main {
+.color { background:$base-accent; position:fixed; top:0; left:0; bottom:0; width:em(40); }
+section {
   ul { list-style-type:none;
     &, & li { margin:0; padding:0; display:inline; }
   }
 }
 
+//
+// fun colour effect
+::selection { background:$base-accent; color:white; }
+::-moz-selection { background:$base-accent; color:white; }
+
+.red    { @include fun(#fa0000); }
+.yellow { @include fun(#FCD450); }
+.teal   { @include fun(#009AA6); }
+.orange { @include fun(#E98300); }
+.purple { @include fun(#57068C); }
+.green  { @include fun(#B6BF00); }
+.pink   { @include fun(#e0249a); }
+.blue   { @include fun(#0073CF); }
+
+
+//
 // animations
-.a1       { @include fade-in(0.50s); }
-.a2       { @include fade-in(0.75s); }
-.a3       { @include fade-in(1.00s); }
-h1, .main { @include fade-in(0.00s, 2s); }
-.color    { @include fade-in(0.00s, 3s); }
+.a1         { @include fade-in(0.50s); }
+.a2         { @include fade-in(0.75s); }
+.a3         { @include fade-in(1.00s); }
+h1, section { @include fade-in(0.00s, 2s); }
+.color      { @include fade-in(0.00s, 3s); }

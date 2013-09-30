@@ -900,18 +900,6 @@ textarea {
 }
 
 /* line 4, ../../src/sass/partials/_main.scss */
-::selection {
-  background: #fa0000;
-  color: white;
-}
-
-/* line 5, ../../src/sass/partials/_main.scss */
-::-moz-selection {
-  background: #fa0000;
-  color: white;
-}
-
-/* line 7, ../../src/sass/partials/_main.scss */
 body {
   color: #444444;
   margin-left: 5em;
@@ -919,31 +907,31 @@ body {
   max-width: 39.0625em;
 }
 
-/* line 8, ../../src/sass/partials/_main.scss */
+/* line 5, ../../src/sass/partials/_main.scss */
 h1, h2, p {
   margin: 0;
 }
 
-/* line 9, ../../src/sass/partials/_main.scss */
+/* line 6, ../../src/sass/partials/_main.scss */
 h1 {
   font-weight: 700;
   color: black;
   font-size: 2.95633em;
 }
 @media screen and (min-width: 35.9375em) {
-  /* line 9, ../../src/sass/partials/_main.scss */
+  /* line 6, ../../src/sass/partials/_main.scss */
   h1 {
     font-size: 3.70633em;
   }
 }
 
-/* line 13, ../../src/sass/partials/_main.scss */
+/* line 10, ../../src/sass/partials/_main.scss */
 h2 {
   font-size: 2.29068em;
   font-weight: 300;
 }
 
-/* line 14, ../../src/sass/partials/_main.scss */
+/* line 11, ../../src/sass/partials/_main.scss */
 p {
   font-size: 0.875em;
   line-height: 1.6;
@@ -951,7 +939,7 @@ p {
   padding: 0.25em;
 }
 
-/* line 15, ../../src/sass/partials/_main.scss */
+/* line 12, ../../src/sass/partials/_main.scss */
 a {
   border-bottom: 1px solid rgba(68, 68, 68, 0.25);
   color: #444444;
@@ -1004,12 +992,12 @@ a.linkedin:hover {
   border-bottom: 3px solid #50a1cb;
 }
 
-/* line 32, ../../src/sass/partials/_main.scss */
+/* line 29, ../../src/sass/partials/_main.scss */
 header {
   margin-top: 10%;
 }
 
-/* line 33, ../../src/sass/partials/_main.scss */
+/* line 30, ../../src/sass/partials/_main.scss */
 .color {
   background: #fa0000;
   position: fixed;
@@ -1019,46 +1007,162 @@ header {
   width: 2.5em;
 }
 
-/* line 35, ../../src/sass/partials/_main.scss */
-.main ul {
+/* line 32, ../../src/sass/partials/_main.scss */
+section ul {
   list-style-type: none;
 }
-/* line 36, ../../src/sass/partials/_main.scss */
-.main ul, .main ul li {
+/* line 33, ../../src/sass/partials/_main.scss */
+section ul, section ul li {
   margin: 0;
   padding: 0;
   display: inline;
 }
 
-/* line 41, ../../src/sass/partials/_main.scss */
+/* line 39, ../../src/sass/partials/_main.scss */
+::selection {
+  background: #fa0000;
+  color: white;
+}
+
+/* line 40, ../../src/sass/partials/_main.scss */
+::-moz-selection {
+  background: #fa0000;
+  color: white;
+}
+
+/* line 21, ../../src/sass/partials/_functions.scss */
+.red .color {
+  background: #fa0000;
+}
+/* line 22, ../../src/sass/partials/_functions.scss */
+.red ::selection {
+  background: #fa0000;
+}
+/* line 23, ../../src/sass/partials/_functions.scss */
+.red ::-moz-selection {
+  background: #fa0000;
+}
+
+/* line 21, ../../src/sass/partials/_functions.scss */
+.yellow .color {
+  background: #fcd450;
+}
+/* line 22, ../../src/sass/partials/_functions.scss */
+.yellow ::selection {
+  background: #fcd450;
+}
+/* line 23, ../../src/sass/partials/_functions.scss */
+.yellow ::-moz-selection {
+  background: #fcd450;
+}
+
+/* line 21, ../../src/sass/partials/_functions.scss */
+.teal .color {
+  background: #009aa6;
+}
+/* line 22, ../../src/sass/partials/_functions.scss */
+.teal ::selection {
+  background: #009aa6;
+}
+/* line 23, ../../src/sass/partials/_functions.scss */
+.teal ::-moz-selection {
+  background: #009aa6;
+}
+
+/* line 21, ../../src/sass/partials/_functions.scss */
+.orange .color {
+  background: #e98300;
+}
+/* line 22, ../../src/sass/partials/_functions.scss */
+.orange ::selection {
+  background: #e98300;
+}
+/* line 23, ../../src/sass/partials/_functions.scss */
+.orange ::-moz-selection {
+  background: #e98300;
+}
+
+/* line 21, ../../src/sass/partials/_functions.scss */
+.purple .color {
+  background: #57068c;
+}
+/* line 22, ../../src/sass/partials/_functions.scss */
+.purple ::selection {
+  background: #57068c;
+}
+/* line 23, ../../src/sass/partials/_functions.scss */
+.purple ::-moz-selection {
+  background: #57068c;
+}
+
+/* line 21, ../../src/sass/partials/_functions.scss */
+.green .color {
+  background: #b6bf00;
+}
+/* line 22, ../../src/sass/partials/_functions.scss */
+.green ::selection {
+  background: #b6bf00;
+}
+/* line 23, ../../src/sass/partials/_functions.scss */
+.green ::-moz-selection {
+  background: #b6bf00;
+}
+
+/* line 21, ../../src/sass/partials/_functions.scss */
+.pink .color {
+  background: #e0249a;
+}
+/* line 22, ../../src/sass/partials/_functions.scss */
+.pink ::selection {
+  background: #e0249a;
+}
+/* line 23, ../../src/sass/partials/_functions.scss */
+.pink ::-moz-selection {
+  background: #e0249a;
+}
+
+/* line 21, ../../src/sass/partials/_functions.scss */
+.blue .color {
+  background: #0073cf;
+}
+/* line 22, ../../src/sass/partials/_functions.scss */
+.blue ::selection {
+  background: #0073cf;
+}
+/* line 23, ../../src/sass/partials/_functions.scss */
+.blue ::-moz-selection {
+  background: #0073cf;
+}
+
+/* line 54, ../../src/sass/partials/_main.scss */
 .a1 {
   -webkit-animation: fadeIn 1s 0.5s both;
   -moz-animation: fadeIn 1s 0.5s both;
   animation: fadeIn 1s 0.5s both;
 }
 
-/* line 42, ../../src/sass/partials/_main.scss */
+/* line 55, ../../src/sass/partials/_main.scss */
 .a2 {
   -webkit-animation: fadeIn 1s 0.75s both;
   -moz-animation: fadeIn 1s 0.75s both;
   animation: fadeIn 1s 0.75s both;
 }
 
-/* line 43, ../../src/sass/partials/_main.scss */
+/* line 56, ../../src/sass/partials/_main.scss */
 .a3 {
   -webkit-animation: fadeIn 1s 1s both;
   -moz-animation: fadeIn 1s 1s both;
   animation: fadeIn 1s 1s both;
 }
 
-/* line 44, ../../src/sass/partials/_main.scss */
-h1, .main {
+/* line 57, ../../src/sass/partials/_main.scss */
+h1, section {
   -webkit-animation: fadeIn 2s 0s both;
   -moz-animation: fadeIn 2s 0s both;
   animation: fadeIn 2s 0s both;
 }
 
-/* line 45, ../../src/sass/partials/_main.scss */
+/* line 58, ../../src/sass/partials/_main.scss */
 .color {
   -webkit-animation: fadeIn 3s 0s both;
   -moz-animation: fadeIn 3s 0s both;

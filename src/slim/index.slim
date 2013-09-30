@@ -1,5 +1,5 @@
 doctype html
-html.no-js
+html
   head
     meta charset='utf-8'
     meta http-equiv='X-UA-Compatible' content='IE=edge'
@@ -7,20 +7,12 @@ html.no-js
     meta name='description' content='Jesse McGinnis. Developer. Leader. Student.'
 
     title Jesse McGinnis
-
-    /[if lte IE 6]
-      link rel="stylesheet" href="http://universal-ie6-css.googlecode.com/files/ie6.1.1.css" media="screen, projection"
-    | <!--[if ! lte IE 6]><!-->
     link rel='stylesheet' href='css/style.css'
-    | <!--<![endif]-->
 
     /[if lt IE 9]
+      script src='js/html5shiv.js'
       script src='//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js'
       script src='//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js'
-      | <script type="text/javascript">window.respond || document.write('<script src="js/vendor/respond.min.js"><\/script>')
-
-    script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'
-    | <script type="text/javascript">window.Modernizr || document.write('<script src="js/vendor/modernizr-2.6.2.min.js"><\/script>')</script>
 
   body
     /[if lt IE 8]

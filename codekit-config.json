@@ -73,6 +73,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/build\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/src\/js\/main.coffee" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -84,15 +93,6 @@
       "outputAbbreviatedPath" : "\/build\/js\/main.js",
       "outputStyle" : 1,
       "fileType" : 32
-    },
-    "\/build\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/src\/slim\/index.slim" : {
       "ignoreWasSetByUser" : 0,

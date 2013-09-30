@@ -50,6 +50,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/build\/js\/main.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/js\/main.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/build\/js\/main-ck.js",
+      "fileType" : 64
+    },
     "\/build\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -58,6 +69,18 @@
       "inputAbbreviatedPath" : "\/build\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/src\/js\/main.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/js\/main.coffee",
+      "checkOutputStyle" : 2,
+      "minifyOutput" : 1,
+      "outputAbbreviatedPath" : "\/build\/js\/main.js",
+      "outputStyle" : 0,
+      "fileType" : 32
     },
     "\/src\/sass\/partials\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -70,29 +93,6 @@
       "outputAbbreviatedPath" : "\/build\/css\/_main.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/src\/js\/main.coffee" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/js\/main.coffee",
-      "checkOutputStyle" : 0,
-      "minifyOutput" : 1,
-      "outputAbbreviatedPath" : "\/build\/js\/main.js",
-      "outputStyle" : 1,
-      "fileType" : 32
-    },
-    "\/build\/js\/main.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/js\/main.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/build\/js\/main-ck.js",
-      "fileType" : 64
     },
     "\/src\/slim\/index.slim" : {
       "ignoreWasSetByUser" : 0,

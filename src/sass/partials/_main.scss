@@ -1,9 +1,9 @@
 $base-accent: #DE3831;
 $font-color: #444;
 
-body { color:$font-color; margin-left:em(80); margin-right:em(40); max-width:em(625); }
+body { color:$font-color; font-family:'Oxygen', sans-serif; margin-left:em(80); margin-right:em(40); max-width:em(625); }
 h1, h2, p { margin:0; }
-h1 { font-weight:700; color:black;
+h1 { font-weight:700; font-family:'Raleway', sans-serif; color:black;
   font-size: mr(0) - 0.75;
   @include media(em(575)) { font-size:mr(0); }
 }

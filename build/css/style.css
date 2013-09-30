@@ -236,11 +236,11 @@ textarea { resize: vertical; }
 @keyframes fadeIn { 0% { opacity: 0; }
   100% { opacity: 1; } }
 
-body { color: #444444; margin-left: 5em; margin-right: 2.5em; max-width: 39.0625em; }
+body { color: #444444; font-family: 'Oxygen', sans-serif; margin-left: 5em; margin-right: 2.5em; max-width: 39.0625em; }
 
 h1, h2, p { margin: 0; }
 
-h1 { font-weight: 700; color: black; font-size: 2.95633em; }
+h1 { font-weight: 700; font-family: 'Raleway', sans-serif; color: black; font-size: 2.95633em; }
 @media screen and (min-width: 35.9375em) { h1 { font-size: 3.70633em; } }
 
 h2 { font-size: 2.29068em; font-weight: 300; }

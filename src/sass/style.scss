@@ -3,32 +3,29 @@
 // ****************************************************************************
 // Boilerplate
 // ****************************************************************************
-@import "vendor/normalize";
-@import "vendor/h5bp";
+@import 'vendor/normalize';
+@import 'vendor/h5bp';
 
 // ****************************************************************************
 // Framework
 // ****************************************************************************
-@import "bourbon";
-@import "partials/settings-grid"; // Settings for Neat Grid System
-@import "neat";
+@import 'bourbon';
 
 // ****************************************************************************
 // Settings
 // ****************************************************************************
-@import "partials/fonts";
-@import "partials/functions";
-@import "partials/colors";
+@import 'partials/fonts';
+@import 'partials/functions';
+@import 'partials/colors';
 
 // ****************************************************************************
 // Vendor includes
 // ****************************************************************************
-// @import "vendor/filename";
+// @import 'vendor/filename';
 
 // ****************************************************************************
 // Site specific
 // ****************************************************************************
-@import "partials/general";
-@import "partials/main";
-@import "partials/header";
-@import "partials/ie";
+@import 'partials/general';
+@import 'partials/main';
+@import 'partials/ie';

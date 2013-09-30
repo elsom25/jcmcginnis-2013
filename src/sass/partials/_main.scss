@@ -1,24 +1,15 @@
-div.container {
-	@extend %outer-container;
+.main, header { margin-left:em(40); }
+header { margin-top:10%;
+  h1 { font-size:mr(0); font-weight:700; margin:0; }
+  h2 { font-size:mr(1); margin:0; font-weight:300; }
 
-	.parent-element {
-		@include span-columns(8);
-		@include media($mobile) {
-			@include span-columns(6);
-		}
-
-		.child-element1 {
-			@include span-columns(6 of 8);
-			@include media($mobile) {
-				@include span-columns(3);
-			}
-		}
-
-		.child-element2 {
-			@include span-columns(2 of 8);
-			@include media($mobile) {
-				@include span-columns(3);
-			}
-		}
-	}
+  .a1 { @include animation(fadeIn 1.5s 0.50s both); @include fancy-link(red); }
+  .a2 { @include animation(fadeIn 1.5s 1.00s both); @include fancy-link(blue); }
+  .a3 { @include animation(fadeIn 1.5s 1.50s both); @include fancy-link(green); }
+}
+.main {
+  a { color:black; text-decoration:none; border-bottom:1px solid transparentize(black, 0.5); }
+  ul { list-style-type:none;
+    &, & li { margin:0; padding:0; display:inline; }
+  }
 }

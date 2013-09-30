@@ -26,17 +26,14 @@
       "fileType" : 4,
       "debugStyle" : 2
     },
-    "\/src\/sass\/partials\/_ie.scss" : {
+    "\/build\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_ie.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_ie.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/build\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/src\/js\/main.coffee" : {
       "ignoreWasSetByUser" : 0,
@@ -50,15 +47,6 @@
       "outputStyle" : 1,
       "fileType" : 32
     },
-    "\/build\/css\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/src\/sass\/partials\/_functions.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -70,6 +58,18 @@
       "outputAbbreviatedPath" : "\/build\/css\/_functions.css",
       "fileType" : 4,
       "debugStyle" : 2
+    },
+    "\/src\/sass\/partials\/_ie.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_ie.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/_ie.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/src\/sass\/partials\/_fonts.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -85,7 +85,7 @@
     },
     "\/src\/sass\/partials\/_settings-grid.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/src\/sass\/partials\/_settings-grid.scss",
@@ -143,18 +143,6 @@
       "fileType" : 4,
       "debugStyle" : 2
     },
-    "\/src\/sass\/partials\/_header.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_header.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/build\/css\/_header.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
     "\/src\/sass\/vendor\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -200,15 +188,6 @@
       "outputAbbreviatedPath" : "\/build\/js\/_jquery.debouncedresize-ck.js",
       "fileType" : 64
     },
-    "\/build\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/src\/sass\/vendor\/_h5bp.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -220,6 +199,15 @@
       "outputAbbreviatedPath" : "\/build\/css\/_h5bp.css",
       "fileType" : 4,
       "debugStyle" : 2
+    },
+    "\/build\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     }
   },
   "manualImportLinks" : [

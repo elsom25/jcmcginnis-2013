@@ -247,7 +247,7 @@ h2 { font-size: 2.29068em; font-weight: 300; }
 
 p { font-size: 0.875em; line-height: 1.6; margin-bottom: 1em; padding: 0.25em; }
 
-a { border-bottom: 1px solid rgba(68, 68, 68, 0.25); color: #444444; padding: 0.05em 0.15em 0; text-decoration: none; }
+a { border-bottom: 1px solid rgba(68, 68, 68, 0.375); color: #444444; padding: 0.05em 0.15em 0; text-decoration: none; }
 a:hover { background: rgba(222, 56, 49, 0.5); border-bottom: 3px solid #de3831; }
 
 header { margin-top: 10%; }

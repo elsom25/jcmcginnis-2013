@@ -8,11 +8,11 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/src\/sass\/style.scss",
-      "outputStyle" : 1,
+      "outputStyle" : 2,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/build\/css\/style.css",
       "fileType" : 4,
-      "debugStyle" : 1
+      "debugStyle" : 0
     },
     "\/src\/sass\/partials\/_functions.scss" : {
       "ignoreWasSetByUser" : 0,

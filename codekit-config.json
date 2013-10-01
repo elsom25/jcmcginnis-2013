@@ -2,6 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8326",
   "files" : {
+    "\/build\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/src\/sass\/style.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -117,15 +126,15 @@
       "outputAbbreviatedPath" : "\/build\/js\/main-ck.js",
       "fileType" : 64
     },
-    "\/src\/sass\/vendor\/_h5bp.scss" : {
+    "\/src\/sass\/vendor.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/_h5bp.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_h5bp.css",
+      "inputAbbreviatedPath" : "\/src\/sass\/vendor.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/build\/css\/vendor.css",
       "fileType" : 4,
       "debugStyle" : 2
     },
@@ -140,14 +149,17 @@
       "initialSize" : 5443,
       "fileType" : 8192
     },
-    "\/build\/index.html" : {
+    "\/src\/sass\/vendor\/_h5bp.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/_h5bp.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/_h5bp.css",
+      "fileType" : 4,
+      "debugStyle" : 2
     }
   },
   "manualImportLinks" : [

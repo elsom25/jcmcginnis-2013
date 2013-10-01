@@ -2,14 +2,28 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8326",
   "files" : {
-    "\/build\/index.html" : {
+    "\/src\/sass\/vendor\/_h5bp.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/_h5bp.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/_h5bp.css",
+      "fileType" : 4,
+      "debugStyle" : 2
+    },
+    "\/build\/js\/vendor\/zepto.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/js\/vendor\/zepto.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/build\/js\/zepto.min-ck.js",
+      "fileType" : 64
     },
     "\/src\/sass\/style.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -22,17 +36,6 @@
       "outputAbbreviatedPath" : "\/build\/css\/style.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/build\/js\/vendor\/zepto.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/js\/vendor\/zepto.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/build\/js\/zepto.min-ck.js",
-      "fileType" : 64
     },
     "\/build\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
@@ -92,6 +95,15 @@
       "fileType" : 1024,
       "logicless" : 0
     },
+    "\/build\/css\/vendor.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/css\/vendor.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/src\/sass\/vendor\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -132,11 +144,11 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/src\/sass\/vendor.scss",
-      "outputStyle" : 2,
+      "outputStyle" : 3,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/build\/css\/vendor.css",
       "fileType" : 4,
-      "debugStyle" : 2
+      "debugStyle" : 0
     },
     "\/src\/apple-touch-icon.png" : {
       "ignoreWasSetByUser" : 0,
@@ -149,17 +161,14 @@
       "initialSize" : 5443,
       "fileType" : 8192
     },
-    "\/src\/sass\/vendor\/_h5bp.scss" : {
+    "\/build\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/_h5bp.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_h5bp.css",
-      "fileType" : 4,
-      "debugStyle" : 2
+      "inputAbbreviatedPath" : "\/build\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     }
   },
   "manualImportLinks" : [

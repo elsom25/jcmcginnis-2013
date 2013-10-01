@@ -1,24 +1,9 @@
-Element::remove = -> @parentElement.removeChild( this )
-NodeList::remove = HTMLCollection::remove = ->
-  i = 0
-  len = @length
-
-  while i < len
-    this[i].parentElement.removeChild( this[i] ) if this[i] and this[i].parentElement
-    i++
-
-  return
-
-do (window = this, document) ->
+do (window = this, $ = this.Zepto) ->
   colors = ['red', 'yellow', 'teal', 'orange', 'purple', 'green', 'pink', 'blue']
   color = colors[Math.floor( Math.random() * colors.length )]
 
-  document.body.parentNode.className += " #{color}"
+  $ ->
+    $( 'html' ).addClass( color )
 
-  document.getElementById( 'favicon' ).remove()
-  head = document.getElementsByTagName( 'head' ).item( 0 )
-  link = document.createElement( 'link' )
-  link.rel  = 'shortcut icon'
-  link.id   = 'favicon'
-  link.href = "favicon_#{color}.ico"
-  head.appendChild( link )
+    $( '#favicon' ).remove()
+    $( "<link href='favicon_#{color}.ico' id='favicon' rel='shortcut icon' />" ).appendTo( 'head' )

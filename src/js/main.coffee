@@ -4,6 +4,4 @@ do (window = this, $ = this.Zepto) ->
 
   $ ->
     $( 'html' ).addClass( color )
-
-    $( '#favicon' ).remove()
-    $( "<link href='favicon_#{color}.ico' id='favicon' rel='shortcut icon' />" ).appendTo( 'head' )
+    $( '#favicon' ).attr( 'href', "favicon_#{color}.ico" )

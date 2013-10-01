@@ -15,7 +15,7 @@
       "debugStyle" : 0
     },
     "\/build\/js\/vendor\/zepto.min.js" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
@@ -52,8 +52,8 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/src\/js\/main.coffee",
-      "checkOutputStyle" : 0,
-      "minifyOutput" : 0,
+      "checkOutputStyle" : 1,
+      "minifyOutput" : 1,
       "outputAbbreviatedPath" : "\/build\/js\/main.js",
       "outputStyle" : 0,
       "fileType" : 32

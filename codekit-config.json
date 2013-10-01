@@ -14,17 +14,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/src\/sass\/vendor\/_h5bp.scss" : {
+    "\/build\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/_h5bp.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_h5bp.css",
-      "fileType" : 4,
-      "debugStyle" : 2
+      "inputAbbreviatedPath" : "\/build\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/src\/sass\/partials\/_functions.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -38,28 +35,17 @@
       "fileType" : 4,
       "debugStyle" : 2
     },
-    "\/src\/sass\/vendor\/_normalize.scss" : {
+    "\/src\/js\/main.coffee" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/_normalize.scss",
+      "inputAbbreviatedPath" : "\/src\/js\/main.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 1,
+      "outputAbbreviatedPath" : "\/build\/js\/main.js",
       "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/build\/js\/main.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/js\/main.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/build\/js\/main-ck.js",
-      "fileType" : 64
+      "fileType" : 32
     },
     "\/src\/sass\/partials\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -72,27 +58,6 @@
       "outputAbbreviatedPath" : "\/build\/css\/_main.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/src\/js\/main.coffee" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/js\/main.coffee",
-      "checkOutputStyle" : 1,
-      "minifyOutput" : 1,
-      "outputAbbreviatedPath" : "\/build\/js\/main.js",
-      "outputStyle" : 0,
-      "fileType" : 32
-    },
-    "\/build\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/src\/slim\/index.slim" : {
       "ignoreWasSetByUser" : 0,
@@ -107,14 +72,71 @@
       "fileType" : 1024,
       "logicless" : 0
     },
-    "\/build\/css\/style.css" : {
+    "\/src\/sass\/vendor\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/css\/style.css",
+      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/_normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/build\/apple-touch-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/apple-touch-icon.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/build\/apple-touch-icon.png",
+      "initialSize" : 5443,
+      "fileType" : 8192
+    },
+    "\/build\/js\/main.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/js\/main.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/build\/js\/main-ck.js",
+      "fileType" : 64
+    },
+    "\/src\/sass\/vendor\/_h5bp.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/_h5bp.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/_h5bp.css",
+      "fileType" : 4,
+      "debugStyle" : 2
+    },
+    "\/src\/apple-touch-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/apple-touch-icon.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/src\/apple-touch-icon.png",
+      "initialSize" : 5443,
+      "fileType" : 8192
+    },
+    "\/build\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     }
   },
   "manualImportLinks" : [

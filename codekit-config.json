@@ -92,6 +92,15 @@
       "fileType" : 1024,
       "logicless" : 0
     },
+    "\/build\/css\/vendor.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/css\/vendor.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/src\/sass\/vendor\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -104,17 +113,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/apple-touch-icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/apple-touch-icon.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/build\/apple-touch-icon.png",
-      "initialSize" : 5443,
-      "fileType" : 8192
-    },
     "\/build\/js\/main.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -126,14 +124,16 @@
       "outputAbbreviatedPath" : "\/build\/js\/main-ck.js",
       "fileType" : 64
     },
-    "\/build\/css\/vendor.css" : {
+    "\/build\/apple-touch-icon.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/css\/vendor.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/build\/apple-touch-icon.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/build\/apple-touch-icon.png",
+      "initialSize" : 5443,
+      "fileType" : 8192
     },
     "\/src\/sass\/vendor.scss" : {
       "ignoreWasSetByUser" : 0,
